@@ -1,0 +1,1039 @@
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+[Inferior 1 (process 26435) exited with code 01]
+The program is not being run.
+The program is not being run.
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+[Inferior 1 (process 26452) exited with code 01]
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26471)]
+[Thread 0x7ffff6c12700 (LWP 26471) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26472)]
+[Thread 0x7ffff6c12700 (LWP 26472) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26473)]
+[Thread 0x7ffff6c12700 (LWP 26473) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26474)]
+[Thread 0x7ffff6c12700 (LWP 26474) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26475)]
+[Thread 0x7ffff6c12700 (LWP 26475) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26476)]
+[Thread 0x7ffff6c12700 (LWP 26476) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[Inferior 1 (process 26467) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Undefined command: "ls".  Try "help".
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Breakpoint 5 at 0x22c0
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26497)]
+[Thread 0x7ffff6c12700 (LWP 26497) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	printf.c: No such file or directory.
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26498)]
+[Thread 0x7ffff6c12700 (LWP 26498) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26499)]
+[Thread 0x7ffff6c12700 (LWP 26499) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26500)]
+[Thread 0x7ffff6c12700 (LWP 26500) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26501)]
+[Thread 0x7ffff6c12700 (LWP 26501) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26502)]
+[Thread 0x7ffff6c12700 (LWP 26502) exited]
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557004 "%s|||-%d-|||\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x555555557048 "%d\n") at printf.c:28
+28	in printf.c
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, __printf (format=0x5555555570a0 "HTTP request succeeded for URL: %s\n") at printf.c:28
+28	in printf.c
+Continuing.
+[Inferior 1 (process 26493) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+.gdbinit:19: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Function "\x20\x20\x10\x00" not defined.
+Quit
+Quit
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Breakpoint 5 at 0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+Warning:
+Cannot insert breakpoint 5.
+Cannot access memory at address 0x102020
+
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Hardware access (read/write) watchpoint 5: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 28670)]
+[Thread 0x7ffff6c12700 (LWP 28670) exited]
+
+Thread 1 "Crawler" received signal SIGINT, Interrupt.
+0x00007ffff7c54d2f in __GI___poll (fds=0x7fffffe6b220, nfds=2, timeout=1000) at ../sysdeps/unix/sysv/linux/poll.c:29
+29	../sysdeps/unix/sysv/linux/poll.c: No such file or directory.
+Continuing.
+
+Thread 1 "Crawler" received signal SIGINT, Interrupt.
+0x00007ffff7c54d2f in __GI___poll (fds=0x7fffffe6b220, nfds=2, timeout=1000) at ../sysdeps/unix/sysv/linux/poll.c:29
+29	in ../sysdeps/unix/sysv/linux/poll.c
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Hardware access (read/write) watchpoint 5: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 28949)]
+[Thread 0x7ffff6c12700 (LWP 28949) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 28974)]
+[Thread 0x7ffff6c12700 (LWP 28974) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29017)]
+[Thread 0x7ffff6c12700 (LWP 29017) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29045)]
+[Thread 0x7ffff6c12700 (LWP 29045) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29088)]
+[Thread 0x7ffff6c12700 (LWP 29088) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29140)]
+[Thread 0x7ffff6c12700 (LWP 29140) exited]
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x00007ffff7f3db20 in curl_easy_cleanup () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[Inferior 1 (process 28900) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Debugger's willingness to use watchpoint hardware is 1.
+Breakpoint 1 at 0x2c4e
+Breakpoint 2 at 0x2490
+Breakpoint 3 at 0x23d0
+Breakpoint 4 at 0x22f0
+Hardware access (read/write) watchpoint 5: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 3, 0x00007ffff7f3d900 in curl_easy_perform () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+
+Breakpoint 2, 0x00007ffff7f3d890 in curl_easy_init () from /lib/x86_64-linux-gnu/libcurl.so.4
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29582)]
+[Thread 0x7ffff6c12700 (LWP 29582) exited]
+
+Thread 1 "Crawler" received signal SIGINT, Interrupt.
+0x00007ffff7c54d2f in __GI___poll (fds=0x7fffffe6b220, nfds=2, timeout=1000) at ../sysdeps/unix/sysv/linux/poll.c:29
+29	../sysdeps/unix/sysv/linux/poll.c: No such file or directory.
+Breakpoint 1 at 0x2c4e
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29771)]
+[Thread 0x7ffff6c12700 (LWP 29771) exited]
+[New Thread 0x7ffff6c12700 (LWP 29772)]
+[Thread 0x7ffff6c12700 (LWP 29772) exited]
+[New Thread 0x7ffff6c12700 (LWP 29773)]
+[Thread 0x7ffff6c12700 (LWP 29773) exited]
+[New Thread 0x7ffff6c12700 (LWP 29774)]
+[Thread 0x7ffff6c12700 (LWP 29774) exited]
+[New Thread 0x7ffff6c12700 (LWP 29775)]
+[Thread 0x7ffff6c12700 (LWP 29775) exited]
+[New Thread 0x7ffff6c12700 (LWP 29787)]
+[Thread 0x7ffff6c12700 (LWP 29787) exited]
+Quit
+Couldn't get registers: No such process.
+Not confirmed.
+Couldn't get registers: No such process.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Breakpoint 1 at 0x2c4e
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 29994)]
+[Thread 0x7ffff6c12700 (LWP 29994) exited]
+
+Thread 1 "Crawler" received signal SIGINT, Interrupt.
+0x00007ffff7c54d2f in __GI___poll (fds=0x7fffffe6b220, nfds=2, timeout=1000) at ../sysdeps/unix/sysv/linux/poll.c:29
+29	../sysdeps/unix/sysv/linux/poll.c: No such file or directory.
+Breakpoint 1 at 0x2c4e
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x0000555555556c4e in main ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 30307)]
+[Thread 0x7ffff6c12700 (LWP 30307) exited]
+[New Thread 0x7ffff6c12700 (LWP 30308)]
+[Thread 0x7ffff6c12700 (LWP 30308) exited]
+[New Thread 0x7ffff6c12700 (LWP 30309)]
+[Thread 0x7ffff6c12700 (LWP 30309) exited]
+[New Thread 0x7ffff6c12700 (LWP 30310)]
+[Thread 0x7ffff6c12700 (LWP 30310) exited]
+[New Thread 0x7ffff6c12700 (LWP 30311)]
+[Thread 0x7ffff6c12700 (LWP 30311) exited]
+[New Thread 0x7ffff6c12700 (LWP 30326)]
+[Thread 0x7ffff6c12700 (LWP 30326) exited]
+[Inferior 1 (process 30300) exited normally]
+Breakpoint 1 at 0x2c4e
+Hardware access (read/write) watchpoint 2: *0x102020
+All defined functions:
+
+Non-debugging symbols:
+0x0000000000002000  _init
+0x0000000000002280  __cxa_finalize@plt
+0x0000000000002290  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@plt
+0x00000000000022a0  std::__throw_logic_error(char const*)@plt
+0x00000000000022b0  __cxa_begin_catch@plt
+0x00000000000022c0  printf@plt
+0x00000000000022d0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@plt
+0x00000000000022e0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const@plt
+0x00000000000022f0  curl_easy_cleanup@plt
+0x0000000000002300  fprintf@plt
+0x0000000000002310  curl_global_init@plt
+0x0000000000002320  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@plt
+0x0000000000002330  std::basic_fstream<char, std::char_traits<char> >::basic_fstream(char const*, std::_Ios_Openmode)@plt
+0x0000000000002340  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const@plt
+0x0000000000002350  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@plt
+0x0000000000002360  std::basic_ios<char, std::char_traits<char> >::operator bool() const@plt
+0x0000000000002370  strcpy@plt
+0x0000000000002380  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@plt
+0x0000000000002390  curl_easy_strerror@plt
+0x00000000000023a0  std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)@plt
+0x00000000000023b0  std::basic_fstream<char, std::char_traits<char> >::is_open()@plt
+0x00000000000023c0  _Unwind_Resume@plt
+0x00000000000023d0  curl_easy_perform@plt
+0x00000000000023e0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+0x00000000000023f0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@plt
+0x0000000000002400  __cxa_end_catch@plt
+0x0000000000002410  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@plt
+0x0000000000002420  __cxa_rethrow@plt
+0x0000000000002430  curl_easy_setopt@plt
+0x0000000000002440  std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()@plt
+0x0000000000002450  std::allocator<char>::~allocator()@plt
+0x0000000000002460  curl_global_cleanup@plt
+0x0000000000002470  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@plt
+0x0000000000002480  std::allocator<char>::allocator()@plt
+0x0000000000002490  curl_easy_init@plt
+0x00000000000024a0  puts@plt
+0x00000000000024b0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@plt
+0x00000000000024c0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@plt
+0x00000000000024d0  std::allocator<char>::~allocator()@plt
+0x00000000000024e0  _start
+0x0000000000002510  deregister_tm_clones
+0x0000000000002540  register_tm_clones
+0x0000000000002580  __do_global_dtors_aux
+0x00000000000025c0  frame_dummy
+0x00000000000025ca  HashFunction(char const*, Datatable*, int)
+0x0000000000002602  Datatable::saveWebsite(char const*, char*)
+0x00000000000026c2  Parser::ParseHtmlNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+0x00000000000026d6  Parser::GetRecipes(char const*, int)
+0x0000000000002768  std::char_traits<char>::length(char const*)
+0x00000000000027bc  __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+0x00000000000027e2  __gnu_cxx::char_traits<char>::length(char const*)
+0x000000000000282c  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+0x000000000000282c  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+0x000000000000284c  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+0x000000000000284c  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+0x00000000000028e8  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*)
+0x000000000000291a  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type)
+0x000000000000294c  std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+0x0000000000002982  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+0x0000000000002aa1  bool __gnu_cxx::__is_null_pointer<char const>(char const*)
+0x0000000000002ab7  std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+0x0000000000002ac5  std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+0x0000000000002adf  write_callback(void*, unsigned long, unsigned long, void*)
+0x0000000000002b43  sender(char const*, Datatable*)
+0x0000000000002c46  main
+0x0000000000002e6e  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+0x0000000000002e84  Datatable::Datatable()
+0x0000000000002e84  Datatable::Datatable()
+0x0000000000002ecc  Datatable::~Datatable()
+0x0000000000002ecc  Datatable::~Datatable()
+0x0000000000002ee0  __libc_csu_init
+0x0000000000002f50  __libc_csu_fini
+0x0000000000002f58  _fini
+Undefined info command: "main".  Try "help info".
+All functions matching regular expression "main":
+
+Non-debugging symbols:
+0x0000000000002c46  main
+Breakpoint 1 at 0x2c4e
+Hardware access (read/write) watchpoint 2: *0x102020
+All defined functions:
+
+Non-debugging symbols:
+0x0000000000002000  _init
+0x0000000000002280  __cxa_finalize@plt
+0x0000000000002290  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@plt
+0x00000000000022a0  std::__throw_logic_error(char const*)@plt
+0x00000000000022b0  __cxa_begin_catch@plt
+0x00000000000022c0  printf@plt
+0x00000000000022d0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@plt
+0x00000000000022e0  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const@plt
+0x00000000000022f0  curl_easy_cleanup@plt
+0x0000000000002300  fprintf@plt
+0x0000000000002310  curl_global_init@plt
+0x0000000000002320  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@plt
+0x0000000000002330  std::basic_fstream<char, std::char_traits<char> >::basic_fstream(char const*, std::_Ios_Openmode)@plt
+0x0000000000002340  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const@plt
+0x0000000000002350  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@plt
+0x0000000000002360  std::basic_ios<char, std::char_traits<char> >::operator bool() const@plt
+0x0000000000002370  strcpy@plt
+0x0000000000002380  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@plt
+Quit
+All functions matching regular expression "FUN_00102020":
+All functions matching regular expression "FUN":
+All functions matching regular expression "man":
+All functions matching regular expression "main":
+
+Non-debugging symbols:
+0x0000000000002c46  main
+Function "0x0000000000002c46" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Hardware access (read/write) watchpoint 1: *0x102020
+.gdbinit:6: Error in sourced command file:
+Cannot watch constant value `0x0000000000002c46'.
+.gdbinit:6: Error in sourced command file:
+Cannot watch constant value `0x00102c46'.
+.gdbinit:6: Error in sourced command file:
+Cannot watch constant value `0x102c46'.
+Hardware access (read/write) watchpoint 1: *0x102020
+Hardware access (read/write) watchpoint 1: *0x102c46
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff6c12700 (LWP 31915)]
+[Thread 0x7ffff6c12700 (LWP 31915) exited]
+[New Thread 0x7ffff6c12700 (LWP 31916)]
+[Thread 0x7ffff6c12700 (LWP 31916) exited]
+[New Thread 0x7ffff6c12700 (LWP 31928)]
+[Thread 0x7ffff6c12700 (LWP 31928) exited]
+[New Thread 0x7ffff6c12700 (LWP 31929)]
+[Thread 0x7ffff6c12700 (LWP 31929) exited]
+[New Thread 0x7ffff6c12700 (LWP 31930)]
+[Thread 0x7ffff6c12700 (LWP 31930) exited]
+[New Thread 0x7ffff6c12700 (LWP 31934)]
+[Thread 0x7ffff6c12700 (LWP 31934) exited]
+Quit
+Couldn't get registers: No such process.
+Continuing.
+Couldn't get registers: No such process.
+Command aborted.
+Couldn't get registers: No such process.
+Hardware access (read/write) watchpoint 1: *0x102c46
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff6c12700 (LWP 32053)]
+[Thread 0x7ffff6c12700 (LWP 32053) exited]
+[New Thread 0x7ffff6c12700 (LWP 32054)]
+[Thread 0x7ffff6c12700 (LWP 32054) exited]
+[New Thread 0x7ffff6c12700 (LWP 32055)]
+[Thread 0x7ffff6c12700 (LWP 32055) exited]
+[New Thread 0x7ffff6c12700 (LWP 32056)]
+[Thread 0x7ffff6c12700 (LWP 32056) exited]
+[New Thread 0x7ffff6c12700 (LWP 32057)]
+[Thread 0x7ffff6c12700 (LWP 32057) exited]
+[New Thread 0x7ffff6c12700 (LWP 32058)]
+[Thread 0x7ffff6c12700 (LWP 32058) exited]
+[Inferior 1 (process 32049) exited normally]
+Hardware access (read/write) watchpoint 1: *0x102c46
+Hardware access (read/write) watchpoint 2: *0x102020
+All functions matching regular expression "main":
+
+Non-debugging symbols:
+0x0000000000002c46  main
+.gdbinit:8: Error in sourced command file:
+Invalid number "0x0x0000000000002c46".
+Hardware access (read/write) watchpoint 1: *0x0000000000002c46
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff6c12700 (LWP 32526)]
+[Thread 0x7ffff6c12700 (LWP 32526) exited]
+[New Thread 0x7ffff6c12700 (LWP 32530)]
+[Thread 0x7ffff6c12700 (LWP 32530) exited]
+[New Thread 0x7ffff6c12700 (LWP 32531)]
+[Thread 0x7ffff6c12700 (LWP 32531) exited]
+[New Thread 0x7ffff6c12700 (LWP 32533)]
+[Thread 0x7ffff6c12700 (LWP 32533) exited]
+[New Thread 0x7ffff6c12700 (LWP 32544)]
+[Thread 0x7ffff6c12700 (LWP 32544) exited]
+[New Thread 0x7ffff6c12700 (LWP 32546)]
+[Thread 0x7ffff6c12700 (LWP 32546) exited]
+Quit
+Couldn't get registers: No such process.
+Continuing.
+Couldn't get registers: No such process.
+Command aborted.
+Couldn't get registers: No such process.
+Continuing.
+Couldn't get registers: No such process.
+Hardware access (read/write) watchpoint 1: *0x0000000000002c46
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff6c12700 (LWP 32625)]
+[Thread 0x7ffff6c12700 (LWP 32625) exited]
+[New Thread 0x7ffff6c12700 (LWP 32626)]
+[Thread 0x7ffff6c12700 (LWP 32626) exited]
+[New Thread 0x7ffff6c12700 (LWP 32627)]
+[Thread 0x7ffff6c12700 (LWP 32627) exited]
+[New Thread 0x7ffff6c12700 (LWP 32628)]
+[Thread 0x7ffff6c12700 (LWP 32628) exited]
+[New Thread 0x7ffff6c12700 (LWP 32629)]
+[Thread 0x7ffff6c12700 (LWP 32629) exited]
+[New Thread 0x7ffff6c12700 (LWP 32642)]
+[Thread 0x7ffff6c12700 (LWP 32642) exited]
+[Inferior 1 (process 32618) exited normally]
+Hardware access (read/write) watchpoint 1: *0x0000000000002c46
+Hardware access (read/write) watchpoint 2: *0x102020
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x2c46
+Hardware access (read/write) watchpoint 2: *0x102020
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+Warning:
+Cannot insert breakpoint 1.
+Cannot access memory at address 0x2c46
+
