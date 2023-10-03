@@ -1,0 +1,789 @@
+Breakpoint 1 at 0x26de
+Breakpoint 2 at 0x26ca
+Breakpoint 3 at 0x2e8c
+Breakpoint 4 at 0x260a
+Breakpoint 5 at 0x25d2
+Breakpoint 6 at 0x2c4e
+Breakpoint 7 at 0x2b4b
+Breakpoint 8 at 0x2ae7
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 6, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 3, 0x0000555555556e8c in Datatable::Datatable() ()
+Continuing.
+
+Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26160)]
+[Thread 0x7ffff6c12700 (LWP 26160) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26161)]
+[Thread 0x7ffff6c12700 (LWP 26161) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26162)]
+[Thread 0x7ffff6c12700 (LWP 26162) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26163)]
+[Thread 0x7ffff6c12700 (LWP 26163) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26164)]
+[Thread 0x7ffff6c12700 (LWP 26164) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26165)]
+[Thread 0x7ffff6c12700 (LWP 26165) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+[Inferior 1 (process 26156) exited normally]
+Breakpoint 1 at 0x26de
+Breakpoint 2 at 0x26ca
+Breakpoint 3 at 0x2e8c
+Breakpoint 4 at 0x260a
+Breakpoint 5 at 0x25d2
+Breakpoint 6 at 0x2c4e
+Breakpoint 7 at 0x2b4b
+Breakpoint 8 at 0x2ae7
+Starting program: /mnt/c/Users/suaar/OneDrive/Documents/csce451/C1_reverse/Crawler urls.txt
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 6, 0x0000555555556c4e in main ()
+Continuing.
+
+Breakpoint 3, 0x0000555555556e8c in Datatable::Datatable() ()
+Continuing.
+
+Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26321)]
+[Thread 0x7ffff6c12700 (LWP 26321) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26322)]
+[Thread 0x7ffff6c12700 (LWP 26322) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26323)]
+[Thread 0x7ffff6c12700 (LWP 26323) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26324)]
+[Thread 0x7ffff6c12700 (LWP 26324) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26325)]
+[Thread 0x7ffff6c12700 (LWP 26325) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 7, 0x0000555555556b4b in sender(char const*, Datatable*) ()
+Continuing.
+[New Thread 0x7ffff6c12700 (LWP 26326)]
+[Thread 0x7ffff6c12700 (LWP 26326) exited]
+
+Thread 1 "Crawler" hit Breakpoint 8, 0x0000555555556ae7 in write_callback(void*, unsigned long, unsigned long, void*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 4, 0x000055555555660a in Datatable::saveWebsite(char const*, char*) ()
+Continuing.
+
+Thread 1 "Crawler" hit Breakpoint 5, 0x00005555555565d2 in HashFunction(char const*, Datatable*, int) ()
+Continuing.
+[Inferior 1 (process 26317) exited normally]
