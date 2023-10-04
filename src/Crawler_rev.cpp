@@ -26,12 +26,7 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
-
-int HashFunction(char const* some_cstr, Datatable* dt, int some_int) {
-
-}
-void sender(char *param_1, Datatable *param_2) {
-
+    return 0;
 }
 
 int main(int argc, char *argv[])

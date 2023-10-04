@@ -19,9 +19,7 @@ int HashFunction(char *content, Datatable *datatable, int param_3);
 
 Datatable::Datatable() : a(100), websites_saved(0), c(0x4000), d(100) {}
 
-Datatable::~Datatable() {
-
-}
+Datatable::~Datatable() {}
 
 void Datatable::saveWebsite(char *content, char *userdata) {
 	unsigned int a = HashFunction(content, this, this->c);
