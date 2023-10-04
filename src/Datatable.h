@@ -21,9 +21,9 @@ Datatable::Datatable() {
     *(int *)(this + 0x190000) = 100;
     *(int *)(this + 0x19000c) = 100;
     */
-    a = 100;
-    b = 0;
-    c = 0x4000;
+    a = 0;
+    b = 0x4000;
+    c = 100;
     d = 100;
 }
 
