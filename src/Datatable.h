@@ -5,6 +5,11 @@
 class Datatable {
 public:
     Datatable();
+    char test[0x190000];
+    int a;
+    int b;
+    int c;
+    int d;
     void saveWebsite(char *content, char *userdata);
     ~Datatable();
 };
@@ -16,10 +21,10 @@ Datatable::Datatable() {
     *(int *)(this + 0x190000) = 100;
     *(int *)(this + 0x19000c) = 100;
     */
-    int a = 100;
-    int b = 0;
-    int c = 0x4000;
-    int d = 100;
+    a = 100;
+    b = 0;
+    c = 0x4000;
+    d = 100;
 }
 
 Datatable::~Datatable() {
