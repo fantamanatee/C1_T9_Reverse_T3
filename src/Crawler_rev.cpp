@@ -26,6 +26,10 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
+<<<<<<< HEAD
+=======
+    return 0;
+>>>>>>> 542a181 (No clue fr)
 }
 
 int main(int argc, char *argv[])
