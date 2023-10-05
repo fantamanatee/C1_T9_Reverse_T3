@@ -39,6 +39,28 @@ void Datatable::saveWebsite(char *content, char *userdata) {
     //                                                                                  // of strcpy which must be removed
     // strcpy((char*)(this + a), userdata);
     this->websites_saved += 1;
+
+
+    /* og decompile
+    uint uVar1;
+  
+    uVar1 = HashFunction(param_1,this,*(int *)(this + 0x190008));
+    printf("%s|||-%d-|||\n",param_1,(ulong)uVar1);
+    strcpy((char *)(this + (long)(*(int *)(this + 0x190004) * *(int *)(this + 0x19000c)) + 0x190010 ),
+            param_1);
+    strcpy((char *)(this + (int)uVar1),param_2);
+    *(int *)(this + 0x190004) = *(int *)(this + 0x190004) + 1;
+    return;
+    */
+
+   /* phu's code decompile
+    uint uVar1;
+  
+    uVar1 = HashFunction(param_2,(Datatable *)param_1,*(int *)(param_1 + 0x190008));
+    printf("%s|||-%d-|||\n",param_1,(ulong)uVar1);
+    *(int *)(param_1 + 0x190004) = *(int *)(param_1 + 0x190004) + 1;
+    return;
+    */
 }
 
 int HashFunction(char *content, Datatable *datatable, int param_3) {

@@ -1,0 +1,47 @@
+1256
+HTTP request succeeded for URL: https://example.com
+640
+1448
+1448
+1588
+HTTP request succeeded for URL: http://httpforever.com
+7567
+HTTP request succeeded for URL: https://generalhorticulture.tamu.edu/prof/Recipes/Smother/smother.html
+12417
+HTTP request succeeded for URL: https://generalhorticulture.tamu.edu/prof/Recipes/Gumbo/gumbo.html
+1092
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+567
+1413
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1413
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+1422
+883
+HTTP request succeeded for URL: https://www.liquor.com/recipes/long-island-iced-tea/
+13385
+HTTP request succeeded for URL: https://generalhorticulture.tamu.edu/prof/Recipes/CrawBoil/crawboil.html
