@@ -5,7 +5,8 @@
 #include <curl/curl.h>
 
 unsigned long write_callback(void *content, unsigned long size, unsigned long nmemb, void *userdata) {
-    (*(Datatable **)((long)userdata + 8))->saveWebsite((char *)userdata, (char *)content);
+    // printf("size %d\n", nmemb);
+    (*(Datatable **) userdata)->saveWebsite((char *)content, (char *)userdata);
     printf("%d\n", size * nmemb & 0xffffffff);
     return size * nmemb;
 }
@@ -17,7 +18,8 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_setopt(curl, CURLOPT_URL, url);
         curl_easy_setopt(curl, CURLOPT_USE_SSL, CURLUSESSL_ALL);
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &url);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &datatable);
+        strcpy(datatable->url, url);
         CURLcode curl_code = curl_easy_perform(curl);
         if (curl_code != CURLE_OK) {
             char* strerror = (char *)curl_easy_strerror(curl_code);
@@ -26,10 +28,7 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
-<<<<<<< HEAD
-=======
     return 0;
->>>>>>> 542a181 (No clue fr)
 }
 
 int main(int argc, char *argv[])
@@ -43,6 +42,7 @@ int main(int argc, char *argv[])
         if (myFile.is_open() == '\x01')
         {
             Datatable datatable;
+            // printf("construct %d", datatable.c);
             std::string myText;
             while (getline(myFile, myText))
             {
@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
                 {
                     char *url = (char *) myText.c_str();
                     int sender_success_code = sender(url, &datatable);
+                    // printf("after sender %d", datatable.c);
                     if (sender_success_code == 0)
                     {
                         char *url = (char *) myText.c_str();

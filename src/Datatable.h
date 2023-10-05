@@ -6,7 +6,7 @@
 class Datatable {
 public:
     Datatable();
-    char test[0x190000];
+    char url[0x190000];
     int a;
     int websites_saved;
     int c;
@@ -30,12 +30,11 @@ Datatable::Datatable() {
 int HashFunction(char *content, Datatable *datatable, int param_3);
 
 Datatable::~Datatable() {
-
 }
 
 void Datatable::saveWebsite(char *content, char *userdata) {
 	unsigned int a = HashFunction(content, this, this->c);
-    printf("%s|||-%d-|||\n", content, (unsigned long) a);
+    printf("%s|||-%d-|||\n", this->url, (unsigned long) a);
     // strcpy((char *)(this + (long)(this->websites_saved * this->d) + 0x10), content); // The asm instr adds a random (char *)(our_calc) * 0x10 in param 1
     //                                                                                  // of strcpy which must be removed
     // strcpy((char*)(this + a), userdata);
@@ -43,6 +42,9 @@ void Datatable::saveWebsite(char *content, char *userdata) {
 }
 
 int HashFunction(char *content, Datatable *datatable, int param_3) {
+    // printf("Websites saved %d\n", datatable->websites_saved);
+    // printf("c %d\n", datatable->c);
+    // printf("should be %d\n", 0x4000);
     return datatable->websites_saved * datatable->c;
 }
 
