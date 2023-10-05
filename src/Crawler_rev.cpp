@@ -27,6 +27,7 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
+}
 
 int HashFunction(char const* some_cstr, Datatable* dt, int some_int) {
 
@@ -42,7 +43,8 @@ int main(int argc, char *argv[])
         myFile.open(argv[1], std::ios::in | std::ios::out);
         if (myFile.is_open() == '\x01')
         {
-            Datatable *datatable = new Datatable();
+            //Datatable *datatable = new Datatable();
+            Datatable* datatable;
             std::string myText;
             while (getline(myFile, myText))
             {
