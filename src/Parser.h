@@ -4,6 +4,10 @@
 #include <string>
 
 namespace Parser {
+    void ParseHtmlNode(std::string param) {
+        return;
+    }
+    
     long long GetRecipes(char* s, int number) {
         int num;
         // CONCAT44 is combine two 4-byte
@@ -11,10 +15,7 @@ namespace Parser {
         ParseHtmlNode(s);
         return 0;
     }
-
-    void ParseHtmlNode(std::string param) {
-        return;
-    }
+    
 }
 
 #endif PARSER_H
