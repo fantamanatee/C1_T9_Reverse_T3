@@ -5,20 +5,21 @@
 #include <curl/curl.h>
 
 unsigned long write_callback(void *content, unsigned long size, unsigned long nmemb, void *userdata) {
-    //Datatable::saveWebsite(*(Datatable **)((long)userdata + 8), (char *)userdata, (char *)content);
-    // How tf am I supposed to call savewebsite???
+    // printf("size %d\n", nmemb);
+    (*(Datatable **) userdata)->saveWebsite((char *)content, (char *)userdata);
     printf("%d\n", size * nmemb & 0xffffffff);
     return size * nmemb;
 }
 
 long sender(char *url, Datatable *datatable) {
-    curl_global_init(3); // What is param??? must be == 3
+    curl_global_init(3);
     CURL* curl = curl_easy_init();
     if (curl != 0) {
         curl_easy_setopt(curl, CURLOPT_URL, url);
         curl_easy_setopt(curl, CURLOPT_USE_SSL, CURLUSESSL_ALL);
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &url);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &datatable);
+        strcpy(datatable->url, url);
         CURLcode curl_code = curl_easy_perform(curl);
         if (curl_code != CURLE_OK) {
             char* strerror = (char *)curl_easy_strerror(curl_code);
@@ -27,6 +28,7 @@ long sender(char *url, Datatable *datatable) {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
+    return 0;
 }
 
 int main(int argc, char *argv[])
@@ -39,14 +41,16 @@ int main(int argc, char *argv[])
         myFile.open(argv[1], std::ios::in | std::ios::out);
         if (myFile.is_open() == '\x01')
         {
-            Datatable *datatable = new Datatable();
+            Datatable datatable;
+            // printf("construct %d", datatable.c);
             std::string myText;
             while (getline(myFile, myText))
             {
                 if (4 < myText.size())
                 {
                     char *url = (char *) myText.c_str();
-                    int sender_success_code = sender(url, datatable);
+                    int sender_success_code = sender(url, &datatable);
+                    // printf("after sender %d", datatable.c);
                     if (sender_success_code == 0)
                     {
                         char *url = (char *) myText.c_str();
@@ -60,8 +64,6 @@ int main(int argc, char *argv[])
                 }
             }
             fstream_options = 0;
-            // deconstruct string object
-            // deconstruct datatable object
         }
         else
         {
